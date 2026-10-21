@@ -1,6 +1,6 @@
 # UMFNet
 
-PyTorch implementation of UMFNet for optical/SAR semantic segmentation.
+PyTorch implementation of UMFNet.
 
 ## Files
 
