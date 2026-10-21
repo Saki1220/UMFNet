@@ -4,6 +4,8 @@
 
 PyTorch implementation of UMFNet for optical/SAR semantic segmentation, including model components, the training loss, and an inference utility for prepared NumPy inputs.
 
+[Download pretrained checkpoint](https://github.com/Saki1220/UMFNet/releases/tag/v1.0.0) · [MIT License](LICENSE)
+
 ## Release scope
 
 This package contains the supplied model and loss implementation. It does not include a training pipeline, dataset loader, original preprocessing, label names, dataset splits, or benchmark evaluation code. Paper metadata and citation information have not yet been supplied. Synthetic checks establish execution and checkpoint compatibility; they do not establish segmentation accuracy or reproduce a paper's results.

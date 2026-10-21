@@ -1,6 +1,10 @@
 # Checkpoint
 
-Distribution status: the checkpoint is supplied locally with this candidate package's release assets. A public download URL has not yet been established. No published release is claimed here.
+Download the checkpoint from the [v1.0.0 Release](https://github.com/Saki1220/UMFNet/releases/tag/v1.0.0):
+
+- [umfnet_whu.pth](https://github.com/Saki1220/UMFNet/releases/download/v1.0.0/umfnet_whu.pth)
+- [SHA256SUMS.txt](https://github.com/Saki1220/UMFNet/releases/download/v1.0.0/SHA256SUMS.txt)
+- [LICENSE](https://github.com/Saki1220/UMFNet/releases/download/v1.0.0/LICENSE)
 
 | Field | Value |
 | --- | --- |
@@ -15,4 +19,4 @@ The filename alone does not establish dataset provenance, preprocessing, label s
 
 Load with `torch.load(..., weights_only=True)` and `model.load_state_dict(..., strict=True)`. The provided checkpoint was verified with these options.
 
-After publishing the checkpoint, replace this distribution status with the verified download link. Store the binary as a Release attachment or in an appropriate model host; `.gitignore` excludes checkpoint files from source history. Preserve the MIT license with redistributed copies.
+The binary is distributed as a Release attachment; `.gitignore` excludes checkpoint files from source history. Preserve the MIT license with redistributed copies.
