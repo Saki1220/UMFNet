@@ -1,4 +1,2 @@
-# Versions used for local verification; install the appropriate PyTorch build
-# for your CPU/CUDA environment before installing these requirements.
 torch==2.9.1
 numpy==2.3.5
